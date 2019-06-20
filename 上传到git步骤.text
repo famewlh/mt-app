@@ -4,5 +4,7 @@
 3.git init --> git add . --> git commit -m 'webpack/idst' --> git push origin master:master 
 dist中的index.html文件打开是空白的解决方法
 1.将config文件夹中的index.js中的build对象中的assetsPublicPath改为 ‘./’;
-2.将router.js中的文件mode设置为默认的hash不要设置为history
+2.将router.js中的文件mode设置为默认的hash不要设置为history,否则还是空白无法喧嚷html
 3.重新打包npm run build
+提交失败
+运行ssh -T git@github.com
